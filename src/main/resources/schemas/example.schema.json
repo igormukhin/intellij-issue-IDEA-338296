@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema#",
+  "$id": "https://example.technology/schemas/example.json",
+  "type": "object",
+  "javaType" : "ExampleJson",
+  "properties": {
+    "autoInstall": {
+      "type": "boolean",
+      "title": "Auto Install",
+      "default": false
+    }
+  }
+}

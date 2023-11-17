@@ -1,0 +1,10 @@
+syntax = "proto3";
+package com.mypackage.proto;
+
+option java_package = "com.mypackage.proto";
+option java_outer_classname = "SampleProto";
+
+message SampleMessage {
+
+    string message_id = 1;
+}
